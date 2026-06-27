@@ -1,0 +1,24 @@
+{
+  "name": "Flashcard",
+  "type": "object",
+  "properties": {
+    "folder_id": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    },
+    "is_default": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "folder_id",
+    "question",
+    "answer"
+  ]
+}

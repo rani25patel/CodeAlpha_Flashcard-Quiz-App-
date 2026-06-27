@@ -1,0 +1,28 @@
+{
+  "name": "Progress",
+  "type": "object",
+  "properties": {
+    "folder_id": {
+      "type": "string"
+    },
+    "cards_studied": {
+      "type": "number",
+      "default": 0
+    },
+    "mcq_correct": {
+      "type": "number",
+      "default": 0
+    },
+    "mcq_total": {
+      "type": "number",
+      "default": 0
+    },
+    "last_studied": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "folder_id"
+  ]
+}
