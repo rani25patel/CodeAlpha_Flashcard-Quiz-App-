@@ -1,0 +1,32 @@
+{
+  "name": "UserSettings",
+  "type": "object",
+  "properties": {
+    "dark_mode": {
+      "type": "boolean",
+      "default": false
+    },
+    "flip_speed": {
+      "type": "string",
+      "enum": [
+        "slow",
+        "normal",
+        "fast"
+      ],
+      "default": "normal"
+    },
+    "cards_per_session": {
+      "type": "number",
+      "default": 10
+    },
+    "show_progress_bar": {
+      "type": "boolean",
+      "default": true
+    },
+    "auto_advance": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": []
+}
